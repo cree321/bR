@@ -5,8 +5,8 @@ async function initScanner() {
 
   navigator.mediaDevices.getUserMedia({video: true}).then((capture_source) => {
     capture.src = capture_source;
-    capture.ready = true;
-    capture_preview.requestAnimationFrame(updateScanner);
+    capture.loop = true;
+    capture.oncanplay = capture_preview.requestAnimationFrame(updateScanner);
   });
   
 }
