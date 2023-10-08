@@ -1,0 +1,10 @@
+{
+  "name:": "\\* AIO",
+  "short_name": "\\*",
+  "description": "",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "fullscreen",
+  "scope": "/bR/",
+  "start_url": "/bR/home.html"
+}
